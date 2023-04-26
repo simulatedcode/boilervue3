@@ -1,36 +1,24 @@
 # Boilerplate-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a basic boilerplate setup for Vue 3 using TypeScript.
 
-## Type Support for `.vue` Imports in TS
+In addition to the features mentioned above, this Vue3-TypScript boilerplate also provides an easier development workflow and streamlined deployment to Firebase Hosting and Firestore. With Firebase tools integrated into this boilerplate, developers can easily deploy their applications with just a few simple commands.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Firebase Hosting allows developers to quickly and easily deploy their web applications to a global CDN with HTTPS support. Firestore, on the other hand, provides a real-time NoSQL database that can be easily integrated with the front-end application. With this boilerplate, developers can take advantage of these Firebase services and streamline their development and deployment process.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Features
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- *Vue 3* - The latest version of Vue.js
+- *TypeScript* - A typed superset of JavaScript that compiles to plain JavaScript.
+- *antfu's Vue 3 preset* - using `unplugin-vue-components`, `unplugin-auto-import` and `unocss`.
 
-## Customize configuration
+## Getting started
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+To use this boilerplate, you'll need to have Node.js and Vue CLI installed on your machine.
 
-## Project Setup
+### 1. Clone this repository
 
-```sh
-npm install
 ```
+git clone https://github.com/simulatedcode/boilervue3
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
