@@ -71,29 +71,29 @@ This will install Firebase SDK for your project, and you can use it to deploy yo
 
 To deploy your application to Firebase Hosting, you need to follow the steps below:
 
-### 1. Build your application using the following command:
+1. Build your application using the following command:
 
 ```
 npm run build
 
 ```
 
-### 2. Log in to your Firebase account using the following command:
+2. Log in to your Firebase account using the following command:
 
 ```
 firebase login
 
 ```
 
-### 3. Initialize your Firebase project by running the following command:
+3. Initialize your Firebase project by running the following command:
 ```
 firebase init
 
 ```
 
-### 4. Choose the hosting option and follow the prompts to set up Firebase Hosting for your project.
+4. Choose the hosting option and follow the prompts to set up Firebase Hosting for your project.
 
-### 5. Once you have completed the setup process, you can deploy your application to Firebase Hosting by running the following command:
+5. Once you have completed the setup process, you can deploy your application to Firebase Hosting by running the following command:
 
 ```
 firebase deploy
