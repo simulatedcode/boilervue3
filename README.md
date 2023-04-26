@@ -1,4 +1,4 @@
-# Boilerplate-vue
+# Vue3-TypScript Boilerplate
 
 This is a basic boilerplate setup for Vue 3 using TypeScript.
 
@@ -22,3 +22,84 @@ To use this boilerplate, you'll need to have Node.js and Vue CLI installed on yo
 git clone https://github.com/simulatedcode/boilervue3
 
 ```
+
+### 2. Install dependencies
+
+```
+cd <repository-name>
+npm install
+
+```
+
+### 3. Start the development server
+
+```
+npm run dev
+
+```
+
+### 4. Build for production
+
+```
+npm run build
+
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Firebase
+
+To use Firebase SDK and deploy to Firebase Hosting, you need to have Firebase CLI installed on your machine.
+
+You can install Firebase CLI by running the following command in your terminal:
+
+```
+npm install -g firebase-tools
+
+```
+
+Once you have Firebase CLI installed, you can install Firebase SDK for your project by running the following command:
+
+```
+npm install firebase
+
+```
+
+This will install Firebase SDK for your project, and you can use it to deploy your application to Firebase Hosting.
+
+To deploy your application to Firebase Hosting, you need to follow the steps below:
+
+### 1. Build your application using the following command:
+
+```
+npm run build
+
+```
+
+### 2. Log in to your Firebase account using the following command:
+
+```
+firebase login
+
+```
+
+### 3. Initialize your Firebase project by running the following command:
+```
+firebase init
+
+```
+
+### 4. Choose the hosting option and follow the prompts to set up Firebase Hosting for your project.
+
+### 5. Once you have completed the setup process, you can deploy your application to Firebase Hosting by running the following command:
+
+```
+firebase deploy
+
+```
+
+This will deploy your application to Firebase Hosting, and you can access it using the URL provided by Firebase.
+
+By following these steps, you can easily set up Firebase SDK for your project and deploy your application to Firebase Hosting.
