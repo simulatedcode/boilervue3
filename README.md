@@ -45,10 +45,6 @@ npm run build
 
 ```
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Firebase
 
 To use Firebase SDK and deploy to Firebase Hosting, you need to have Firebase CLI installed on your machine.
@@ -103,3 +99,7 @@ firebase deploy
 This will deploy your application to Firebase Hosting, and you can access it using the URL provided by Firebase.
 
 By following these steps, you can easily set up Firebase SDK for your project and deploy your application to Firebase Hosting.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
