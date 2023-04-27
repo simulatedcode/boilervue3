@@ -1,4 +1,4 @@
-# Vue3-TypScript Boilerplate
+# Vue3-TypScript
 
 This is a basic boilerplate setup for Vue 3 using TypeScript.
 
