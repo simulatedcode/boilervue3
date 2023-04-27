@@ -8,7 +8,7 @@ Firebase Hosting allows developers to quickly and easily deploy their web applic
 
 ## Features
 
-- **Vue 3** - The latest version of Vue.js
+- **Vue 3**(https://vue.org)[vue3] - The latest version of Vue.js
 - **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
 - **antfu's Vue 3 preset** - using `unplugin-vue-components`, `unplugin-auto-import` and `unocss`.
 

@@ -2,11 +2,5 @@
 </script>
 
 <template>
-  <header>
-    Logo
-  </header>
-
-  <main>
-    Welcome main page
-  </main>
+  <div>Starting Create Template</div>
 </template>
