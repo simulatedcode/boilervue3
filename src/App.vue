@@ -2,5 +2,10 @@
 </script>
 
 <template>
-  <div>Starting Create Template</div>
+  <div class="flex justify-between items-center">
+    <Navbar />
+    <main class="flex-1">
+      Welcome
+    </main>
+  </div>
 </template>
